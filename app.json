@@ -1,7 +1,9 @@
 {
-    "web": {
-      "output": "static",
-      "bundler": "metro"
+  "web": {
+    "output": "static",
+    "bundler": "metro",
+    "build": {
+      "publicPath": "/juice-web-app/"
     }
+  }
 }
-  
